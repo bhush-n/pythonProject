@@ -90,3 +90,38 @@ means x = x + 2.
 Similarly, if we want to do a subtraction, we can write x = x - 2 or x -
 = 2. The same works for all the 7 operators mentioned in the section
 above
+
+## The Assignment Sign
+Note that the = sign in the statement userAge = 0 has a different
+meaning from the = sign we learned in Math. In programming, the = sign
+is known as an assignment sign. It means we are assigning the value on
+the right side of the = sign to the variable on the left. A good way to
+understand the statement userAge = 0 is to think of it as userAge <-
+0.
+The statements x = y and y = x have very different meanings in
+programming.
+Confused? An example will likely clear this up.
+Type the following code into your IDLE editor and save it.
+x = 5
+y = 10
+x = y
+print ("x = "
+, x)
+print ("y = "
+, y)
+Now run the program. You should get this output:
+x = 10
+y = 10
+Although x has an initial value of 5 (declared on the first line), the third
+line x = y assigns the value of y to x (x <- y), hence changing the
+value of x to 10 while the value of y remains unchanged.
+Next, modify the program by changing ONLY ONE statement: Change
+the third line from x = y to y = x. Mathematically, x = y and y = x mean
+the same thing. However, this is not so in programming.
+Run the second program. You will now get
+x = 5
+y = 5
+You can see that in this example, the x value remains as 5, but the value
+of y is changed to 5. This is because the statement y = x assigns the
+value of x to y (y <- x). y becomes 5 while x remains unchanged as 5.
+
