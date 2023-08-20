@@ -215,7 +215,7 @@ strings. You use it to capitalize all the letters in a string. For instance,
 Appendix A for more examples and sample codes on how to use
 Python’s built-in string methods.
 
-### List
+### *List
 List refers to a collection of data which are normally related. Instead of
 storing these data as separate variables, we can store them as a list. For
 instance, suppose our program needs to store the age of 5 users. Instead
