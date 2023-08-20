@@ -2,18 +2,11 @@
 ##  Table of contents
 
 [What is Python?](https://github.com/bhush-n/pythonProject#what-is-python)
+[Variables](https://github.com/bhush-n/pythonProject#variables-in-python)
+[Operators](https://github.com/bhush-n/pythonProject#operators-in-python)
+[Data Types](https://github.com/bhush-n/pythonProject#data-types-in-python)
+[Operators](https://github.com/bhush-n/pythonProject#operators-in-python)
 
-[API References](https://github.com/bhush-n/DjangoVC#api-reference)
-
-[Features](https://github.com/bhush-n/DjangoVC#features)
-
-[Installation](https://github.com/bhush-n/DjangoVC#installation)
-
-[License](https://github.com/bhush-n/DjangoVC#license)
-
-[Screenshots](https://github.com/bhush-n/DjangoVC#screenshots)
-
-[Support](https://github.com/bhush-n/DjangoVC#support)
 ## What is Python?
 Python is a high quality, versatile, and powerfully written programming language. Developed by Guido van Rossum, it was first released in 1991. Python is known for its readability, simplicity and ease of use, making it popular for beginners and pros mature as well, here are some of the basic characteristics of Python and how to use it.
 
