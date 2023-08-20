@@ -1,7 +1,7 @@
 # Python codes for a refresher
 ##  Table of contents
 
-[What is Python?](https://github.com/bhush-n/pythonProject#What+is+Python+?)
+[What is Python?](https://github.com/bhush-n/pythonProject#what-is-python)
 
 [API References](https://github.com/bhush-n/DjangoVC#api-reference)
 
