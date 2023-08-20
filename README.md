@@ -2,9 +2,13 @@
 ##  Table of contents
 
 [What is Python?](https://github.com/bhush-n/pythonProject#what-is-python)
+
 [Variables](https://github.com/bhush-n/pythonProject#variables-in-python)
+
 [Operators](https://github.com/bhush-n/pythonProject#operators-in-python)
+
 [Data Types](https://github.com/bhush-n/pythonProject#data-types-in-python)
+
 [Operators](https://github.com/bhush-n/pythonProject#operators-in-python)
 
 ## What is Python?
