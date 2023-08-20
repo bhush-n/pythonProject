@@ -156,3 +156,16 @@ You can see that in this example, the x value remains as 5, but the value
 of y is changed to 5. This is because the statement y = x assigns the
 value of x to y (y <- x). y becomes 5 while x remains unchanged as 5.
 
+
+##  Data Types in Python
+
+### *Integer
+Integers are numbers with no decimal parts, such as -5, -4, -3, 0, 5, 7 etc.
+
+To declare an integer in Python, simply write variableName =
+initial value
+
+Example:
+
+userAge = 23, mobileNumber = 12398724
+
