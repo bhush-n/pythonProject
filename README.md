@@ -71,12 +71,19 @@ Besides assigning a variable an initial value, we can also perform the
 usual mathematical operations on variables. Basic operators in Python
 include +, -, , , /, % and * which represent addition, subtraction,
 multiplication, division, floor division, modulus and exponent respectively.
+
 Example:
+
 Suppose x = 5, y = 2
+
 Addition: x + y = 7
+
 Subtraction: x - y = 3
+
 Multiplication: x*y = 10
+
 Division: x/y = 2.5
+
 Floor Division: x//y = 2 (rounds down the answer to the nearest whole
 number)
 Modulus: x%y = 1 (gives the remainder when 5 is divided by 2)
@@ -86,16 +93,20 @@ Exponent: x**y = 25 (5 to the power of 2)
 Besides the = sign, there are a few more assignment operators in Python
 (and most programming languages). These include operators like +=, -=
 and *=.
+
 Suppose we have the variable x, with an initial value of 10. If we want to
 increment x by 2, we can write
 x = x + 2
+
 The program will first evaluate the expression on the right (x + 2) and
 assign the answer to the left. So eventually the statement above
 becomes x <- 12.
+
 Instead of writing x = x + 2, we can also write x += 2 to express the
 same meaning. The += sign is actually a shorthand that combines the
 assignment sign with the addition operator. Hence, x += 2 simply
 means x = x + 2.
+
 Similarly, if we want to do a subtraction, we can write x = x - 2 or x -
 = 2. The same works for all the 7 operators mentioned in the section
 above
@@ -107,10 +118,14 @@ is known as an assignment sign. It means we are assigning the value on
 the right side of the = sign to the variable on the left. A good way to
 understand the statement userAge = 0 is to think of it as userAge <-
 0.
+
 The statements x = y and y = x have very different meanings in
 programming.
+
 Confused? An example will likely clear this up.
+
 Type the following code into your IDLE editor and save it.
+
 x = 5
 y = 10
 x = y
@@ -118,18 +133,25 @@ print ("x = "
 , x)
 print ("y = "
 , y)
+
 Now run the program. You should get this output:
+
 x = 10
 y = 10
+
 Although x has an initial value of 5 (declared on the first line), the third
 line x = y assigns the value of y to x (x <- y), hence changing the
 value of x to 10 while the value of y remains unchanged.
+
 Next, modify the program by changing ONLY ONE statement: Change
 the third line from x = y to y = x. Mathematically, x = y and y = x mean
 the same thing. However, this is not so in programming.
+
 Run the second program. You will now get
+
 x = 5
 y = 5
+
 You can see that in this example, the x value remains as 5, but the value
 of y is changed to 5. This is because the statement y = x assigns the
 value of x to y (y <- x). y becomes 5 while x remains unchanged as 5.
