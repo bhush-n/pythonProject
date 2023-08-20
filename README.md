@@ -23,17 +23,23 @@ Variables are names given to data that we need to store and manipulate
 in our programs. For instance, suppose your program needs to store the
 age of a user. To do that, we can name this data userAge and define the
 variable userAge using the following statement.
+
 userAge = 0
+
 After you define the variable userAge, your program will allocate a
 certain area of your computer's storage space to store this data. You can
 then access and modify this data by referring to it by its name, userAge.
 Every time you declare a new variable, you need to give it an initial value.
 In this example, we gave it the value 0. We can always change this value
 in our program later.
+
 We can also define multiple variables at one go. To do that simply write
+
 userAge, userName = 23,
-‘Peter’
+‘Bhushan’
+
 This is equivalent to
+
 userAge = 23
 userName = ‘Bhushan’
 
@@ -42,12 +48,15 @@ A variable name in Python can only contain letters (a - z, A - B), numbers
 or underscores (_). However, the first character cannot be a number.
 Hence, you can name your variables userName, user_name or
 userName2 but not 2userName.
+
 In addition, there are some reserved words that you cannot use as a
 variable name because they already have preassigned meanings in
 Python. These reserved words include words like print, input, if,
 while etc. We’ll learn about each of them in subsequent chapters.
+
 Finally, variable names are case sensitive. username is not the same as
 userName.
+
 There are two conventions when naming a variable in Python. We can
 either use the camel case notation or use underscores. Camel case is
 the practice of writing compound words with mixed casing (e.g.
