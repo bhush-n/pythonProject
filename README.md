@@ -18,7 +18,7 @@ Python is a high quality, versatile, and powerfully written programming language
 7. **Indentation-Based Syntax**: Python uses whitespace (indentation) to define blocks of code, which enforce clea
 
 
-## What are Variables?
+## Variables in Python
 Variables are names given to data that we need to store and manipulate
 in our programs. For instance, suppose your program needs to store the
 age of a user. To do that, we can name this data userAge and define the
@@ -56,3 +56,37 @@ the rest of the book. Alternatively, another common practice is to use
 underscores (_) to separate the words. If you prefer, you can name your
 variables like this: this_is_a_variable_name.
 
+
+## Operators in Python
+Besides assigning a variable an initial value, we can also perform the
+usual mathematical operations on variables. Basic operators in Python
+include +, -, , , /, % and * which represent addition, subtraction,
+multiplication, division, floor division, modulus and exponent respectively.
+Example:
+Suppose x = 5, y = 2
+Addition: x + y = 7
+Subtraction: x - y = 3
+Multiplication: x*y = 10
+Division: x/y = 2.5
+Floor Division: x//y = 2 (rounds down the answer to the nearest whole
+number)
+Modulus: x%y = 1 (gives the remainder when 5 is divided by 2)
+Exponent: x**y = 25 (5 to the power of 2)
+
+### More Assignment Operators
+Besides the = sign, there are a few more assignment operators in Python
+(and most programming languages). These include operators like +=, -=
+and *=.
+Suppose we have the variable x, with an initial value of 10. If we want to
+increment x by 2, we can write
+x = x + 2
+The program will first evaluate the expression on the right (x + 2) and
+assign the answer to the left. So eventually the statement above
+becomes x <- 12.
+Instead of writing x = x + 2, we can also write x += 2 to express the
+same meaning. The += sign is actually a shorthand that combines the
+assignment sign with the addition operator. Hence, x += 2 simply
+means x = x + 2.
+Similarly, if we want to do a subtraction, we can write x = x - 2 or x -
+= 2. The same works for all the 7 operators mentioned in the section
+above
