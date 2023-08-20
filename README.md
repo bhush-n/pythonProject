@@ -9,7 +9,6 @@
 
 [Data Types](https://github.com/bhush-n/pythonProject#data-types-in-python)
 
-[Operators](https://github.com/bhush-n/pythonProject#operators-in-python)
 
 ## What is Python?
 Python is a high quality, versatile, and powerfully written programming language. Developed by Guido van Rossum, it was first released in 1991. Python is known for its readability, simplicity and ease of use, making it popular for beginners and pros mature as well, here are some of the basic characteristics of Python and how to use it.
